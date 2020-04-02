@@ -20,7 +20,7 @@ Feature: Testing Dummy API for testing
       |  employee  |    1   |  410 |
       |  employee  |    5   |  200 |
       |  employee  |   32   |  410 |
-        @TC3
+        @TC33
 	Scenario: Create new record in database	
     When the user sets endpoint to "<endPoint>"
     And the user sends the following data:
@@ -33,7 +33,7 @@ Feature: Testing Dummy API for testing
       |  	endPoint	| code | 
       |  	create		|  200 |
       
-  @TC4
+      
   Scenario Outline: Delete an employee record	
     When the user sets endpoint to "<endPoint>"
     And the user sends the <userID>
